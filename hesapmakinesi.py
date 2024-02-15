@@ -46,4 +46,8 @@ while True:
        divide(a,b)
     elif process=="**":
        exponentiation(a,b)
+
+"Bu işlemde python da kullanılan hesap makinesi kodlarını verdim."
+*Umarım faydalı olmuşumdur :) *
+
        
