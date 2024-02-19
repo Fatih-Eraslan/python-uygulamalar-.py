@@ -1,0 +1,14 @@
+
+def enter_number():
+ number=int(input("sayiyi giriniz= "))
+ return(number)
+
+def number_control(number):
+ if number %3==0 and number %5==0:
+    print("15'e tam bölünür.")
+    
+ else:
+   print("15'e tam bölünmez.")
+ 
+number= enter_number()
+number_control(number)

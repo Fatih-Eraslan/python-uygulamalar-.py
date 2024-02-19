@@ -1,0 +1,15 @@
+def enter_value():
+ 
+ işlemci=int(input("işlemci girin= ")) 
+ ram=int(input("Ram girin= "))
+ return (işlemci,ram)
+
+def value_control(işlemci,ram):
+   
+ if  işlemci ==7 and ram>=8:
+    print("kurulum uygun:)")
+ else:
+    print("kurulum uygun değil:)")
+
+value= enter_value()
+value_control(value[0],value[1])
