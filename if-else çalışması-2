@@ -14,3 +14,6 @@ def angle_control(angle1,angle2,angle3):
 
 values = user_angle()
 angle_control(values[0],values[1],values[2])
+
+#Bu dosyada girilen açıların toplamının üçgen olup olmadığını belirleyen kodlar bulunmaktadır.
+#Bu kodlar eğitim aşamasında veya başka alanlarda kullanılabilir.
